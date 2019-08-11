@@ -1,0 +1,245 @@
+html, body {
+  scroll-behavior:smooth;
+  font-family: 'Poiret', cursive;
+}
+
+.colored-section{
+   background: linear-gradient(-125deg, #d04925, #992e24);
+   color: #e9e5dd;
+   /* background-color: #d04925; */
+}
+.white-section{
+  /* background: linear-gradient(-141deg, #ecca1b, #f39526); */
+  background-color: #e9e5dd;
+  color:#d04925;
+
+}
+
+hr {
+  /* border-style: none; */
+  border-style: none;
+  border-width: 6px;
+  border-color: #042f4b;
+  border-top-style: dotted;
+  border-top-color: #042f4b;
+  width: 5%
+}
+img {
+  border-radius: 60%;
+  width: 90%;
+}
+img:hover {
+  border-radius: 10%;
+}
+
+.container-fluid{
+  padding:7% 15%;
+}
+.container{
+  margin: 0;
+}
+
+/* #title .container-fluid {
+  padding: 3% 15%;
+} */
+/* Navigation Bar */
+.navbar {
+  padding: relative;
+  margin: 10px, 200px;
+
+}
+
+.navbar-collapse{
+  padding-left: 40%;
+}
+
+.navbar{
+  background: linear-gradient(-125deg, #d04925, #992e24);
+  position: fixed;
+  padding-left: 10%;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: 'Overlock', cursive;
+}
+
+#head{
+  padding: 3% 15%;
+  margin: 20px;
+}
+
+#head p{
+  font-size: 2.5rem;
+}
+
+.skillbar {
+  font-family: 'Poiret', cursive;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#skills .col-md-6{
+  padding-right:7%;
+}
+.skillbar-bar:before {
+    background: #eee;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #e9e5dd;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    color: #e9e5dd;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color: #e9e5dd;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* section heading */
+.section-heading-small{
+  /* font-family: 'Poiret One', cursive; */
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 0;
+  padding-left: 5%;
+}
+.section-heading{
+  margin-top: 0;
+  margin-bottom: 5%;
+  font-family: 'Poiret One', cursive;
+  font-weight: 900;
+}
+/* head */
+.head-text{
+  text-align: center;
+}
+.head-text p{
+  font-family: 'Pompiere', cursive;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.head-text h1{
+  font-family: 'Sacramento', cursive;
+  color:
+}
+/* Education section */
+.education-title{
+  padding: 10px;
+}
+#education h5 {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* Experience section */
+.experience{
+  font-size: 1.5rem;
+  font-family: 'Overlock', cursive;
+}
+
+.experience-span{
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.experience p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.fas{
+  padding-right: 5%;
+}
+
+.work-right{
+  padding-bottom: 7%;
+}
+
+/* contact me section */
+#contact .container-fluid{
+  padding-bottom: 2%;
+}
+.social-icons{
+  text-align: center;
+}
+.social-icon {
+  padding: 5%;
+  margin-bottom: 15%;
+  color: #d04925;
+}
+#contact p {
+  text-align: center;
+}
+
+/* timeline */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: #e9e5dd;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #992e24;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+#projects h2{
+  font-size: 1.5rem;
+  padding-bottom: 2%;
+}
+
+#projects li{
+  padding-bottom: 5%;
+}
