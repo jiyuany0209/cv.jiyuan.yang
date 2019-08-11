@@ -1,6 +1,6 @@
 html, body {
   scroll-behavior:smooth;
-  font-family: 'Poiret', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .colored-section{
@@ -236,10 +236,14 @@ ul.timeline > li:before {
 }
 
 #projects h2{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-bottom: 2%;
 }
 
 #projects li{
   padding-bottom: 5%;
+}
+
+#projects .float-right{
+  font-size: 1rem;
 }
