@@ -16,13 +16,14 @@ html, body {
 
 .section-subtitle{
   font-size: 1.5rem;
-  padding-bottom: 2%;
+  padding-bottom: 0.5%;
 }
 
 .content{
-  font-size: 1.2rem;
-  line-height: 1.5;
-  padding-bottom: 2%;}
+  font-size: 1rem;
+  line-height: 1.2;
+  padding-bottom: 2%;
+}
 
 hr {
   /* border-style: none; */
@@ -81,7 +82,7 @@ img:hover {
 }
 
 .nav-link {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: 'Overlock', cursive;
 }
 
