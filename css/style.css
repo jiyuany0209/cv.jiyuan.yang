@@ -16,13 +16,12 @@ html, body {
 
 .section-subtitle{
   font-size: 1.5rem;
-  padding-bottom: 0.5%;
 }
 
 .content{
   font-size: 1rem;
-  line-height: 1.2;
-  padding-bottom: 2%;
+  line-height: 1;
+  /* padding-bottom: 1% */
 }
 
 hr {
@@ -153,10 +152,9 @@ img:hover {
   color:
 }
 /* Education section */
-.education-title{
-  padding: 10px;
+.education-section{
+  margin-bottom: 3%;
 }
-
 /* Experience section */
 .experience{
   font-size: 1.5rem;
